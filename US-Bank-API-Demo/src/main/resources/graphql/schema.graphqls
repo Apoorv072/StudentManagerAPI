@@ -1,0 +1,15 @@
+
+type Query
+{
+allStudents:[Student]
+getStudent(studentId:Int):Student
+}
+
+
+type Student
+{
+id:ID!
+firstName:String
+lastName:String
+email:String
+}
